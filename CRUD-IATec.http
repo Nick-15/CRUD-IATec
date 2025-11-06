@@ -1,0 +1,6 @@
+@CRUD_IATec_HostAddress = http://localhost:5107
+
+GET {{CRUD_IATec_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
