@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<CRUD_IATec.Models.EstoqueDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Server=(localdb)\\MSSQLLocalDB;Database=EstoqueDb;Trusted_Connection=True;MultipleActiveResultSets=true")));
 
 var app = builder.Build();
 
@@ -24,4 +28,3 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run(); //teste
