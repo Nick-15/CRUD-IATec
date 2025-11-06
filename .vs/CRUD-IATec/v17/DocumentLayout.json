@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "CRUD-IATec\\Models\\Estoque.cs",
               "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Models\\Estoque.cs",
               "RelativeToolTip": "CRUD-IATec\\Models\\Estoque.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T23:07:14.149Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "CRUD-IATec\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T22:58:55.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T22:58:55.807Z"
             }
           ]
         }
