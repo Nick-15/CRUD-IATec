@@ -14,6 +14,6 @@ namespace CRUD_IATec.Models
 
         public int Quantidade { get; set; }
 
-        public decimal Preco { get; set; }
+        public float Preco { get; set; }
     }
 }
