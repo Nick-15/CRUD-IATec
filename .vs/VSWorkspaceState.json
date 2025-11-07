@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CRUD-IATec",
+    "\\CRUD-IATec\\Controllers",
     "\\CRUD-IATec\\Models"
   ],
-  "SelectedNode": "\\CRUD-IATec\\Controllers",
+  "SelectedNode": "\\CRUD-IATec.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD-IATec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3e1ba7e889678d39941758a8d91128e8034d3d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c097d099871de5b26a4420eb49ab88b2cd670fdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD-IATec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD-IATec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
