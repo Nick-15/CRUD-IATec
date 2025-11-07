@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20251107150428_criacao-inicial.cs" />
+    <Compile Remove="Migrations\20251107150428_criacao-inicial.Designer.cs" />
+    <Compile Remove="Migrations\20251107161237_atualiza-preco-float.cs" />
+    <Compile Remove="Migrations\20251107161237_atualiza-preco-float.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
       <PrivateAssets>all</PrivateAssets>

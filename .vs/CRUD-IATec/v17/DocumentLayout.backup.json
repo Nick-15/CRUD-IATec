@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Nicolas\\CRUD-IATec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\controllers\\estoquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\controllers\\estoquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\models\\estoquedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\models\\estoquedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\migrations\\20251107161237_atualiza-preco-float.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\migrations\\20251107161237_atualiza-preco-float.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\views\\estoques\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\views\\estoques\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\views\\estoques\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\views\\estoques\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\migrations\\20251107150428_criacao-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\migrations\\20251107150428_criacao-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|c:\\users\\nicolas\\crud-iatec\\crud-iatec\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33805AA-97B9-4029-A57B-EB32D9F9B2D5}|CRUD-IATec\\CRUD-IATec.csproj|solutionrelative:crud-iatec\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107204215_AtualizarPrecoDecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRUD-IATec\\Migrations\\20251107204215_AtualizarPrecoDecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,166 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Estoques\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUD-IATec\\Views\\Estoques\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Estoques\\Edit.cshtml",
+              "RelativeToolTip": "CRUD-IATec\\Views\\Estoques\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T21:05:01.697Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CRUD-IATec\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-07T15:53:11.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwCkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-07T15:18:16.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "CRUD-IATec\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-07T15:18:05.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EstoquesController.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Controllers\\EstoquesController.cs",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Controllers\\EstoquesController.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Controllers\\EstoquesController.cs",
-              "RelativeToolTip": "CRUD-IATec\\Controllers\\EstoquesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T14:41:44.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EstoqueDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Models\\EstoqueDbContext.cs",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Models\\EstoqueDbContext.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Models\\EstoqueDbContext.cs",
-              "RelativeToolTip": "CRUD-IATec\\Models\\EstoqueDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T12:54:56.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Program.cs",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Program.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Program.cs",
-              "RelativeToolTip": "CRUD-IATec\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T22:58:55.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\appsettings.json",
-              "RelativeDocumentMoniker": "CRUD-IATec\\appsettings.json",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\appsettings.json",
-              "RelativeToolTip": "CRUD-IATec\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-07T15:07:11.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CRUD-IATec\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T23:33:13.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Estoques\\Create.cshtml",
               "RelativeDocumentMoniker": "CRUD-IATec\\Views\\Estoques\\Create.cshtml",
               "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Estoques\\Create.cshtml",
               "RelativeToolTip": "CRUD-IATec\\Views\\Estoques\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-07T16:06:20.509Z",
+              "WhenOpened": "2025-11-07T21:00:51.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20251107161237_atualiza-preco-float.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107161237_atualiza-preco-float.cs",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Migrations\\20251107161237_atualiza-preco-float.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107161237_atualiza-preco-float.cs",
-              "RelativeToolTip": "CRUD-IATec\\Migrations\\20251107161237_atualiza-preco-float.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRUD-IATec\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T20:54:25.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251107204215_AtualizarPrecoDecimal.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107204215_AtualizarPrecoDecimal.cs",
+              "RelativeDocumentMoniker": "CRUD-IATec\\Migrations\\20251107204215_AtualizarPrecoDecimal.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107204215_AtualizarPrecoDecimal.cs",
+              "RelativeToolTip": "CRUD-IATec\\Migrations\\20251107204215_AtualizarPrecoDecimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:12:38.836Z",
+              "WhenOpened": "2025-11-07T20:42:15.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD-IATec\\Program.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Program.cs",
+              "RelativeToolTip": "CRUD-IATec\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:29:50.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Models\\Estoque.cs",
               "RelativeDocumentMoniker": "CRUD-IATec\\Models\\Estoque.cs",
               "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Models\\Estoque.cs",
               "RelativeToolTip": "CRUD-IATec\\Models\\Estoque.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T23:07:14.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20251107150428_criacao-inicial.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107150428_criacao-inicial.cs",
-              "RelativeDocumentMoniker": "CRUD-IATec\\Migrations\\20251107150428_criacao-inicial.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\CRUD-IATec\\CRUD-IATec\\Migrations\\20251107150428_criacao-inicial.cs",
-              "RelativeToolTip": "CRUD-IATec\\Migrations\\20251107150428_criacao-inicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T15:04:29.171Z",
+              "WhenOpened": "2025-11-07T20:23:47.039Z",
               "EditorCaption": ""
             }
           ]

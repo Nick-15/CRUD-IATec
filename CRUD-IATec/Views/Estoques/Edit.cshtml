@@ -40,5 +40,13 @@
 </div>
 
 @section Scripts {
+    <script>
+        document.querySelector("form").addEventListener("submit", function () {
+            const precoInput = document.getElementById("Preco");
+            if (precoInput && precoInput.value.includes(",")) {
+                precoInput.value = precoInput.value.replace(",", ".");
+            }
+        });
+    </script>
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
