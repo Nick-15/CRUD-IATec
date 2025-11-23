@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace CRUD_IATec.Migrations
+namespace CRUD_IATec.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class criacaoinicial : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,7 @@ namespace CRUD_IATec.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeProduto = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NomeProduto = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Quantidade = table.Column<int>(type: "int", nullable: false),
                     Preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },

@@ -1,16 +1,22 @@
 using Microsoft.AspNetCore.Localization;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Globalization;
+using CRUD_IATec.Application;
+using CRUD_IATec.Infrastructure;
+using CRUD_IATec.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    // Adiciona o Model Binder customizado para decimal
+    options.ModelBinderProviders.Insert(0, new DecimalModelBinderProvider());
+});
 
-// Configuração do banco de dados
-builder.Services.AddDbContext<CRUD_IATec.Models.EstoqueDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Adiciona as camadas da Arquitetura Onion
+builder.Services.AddApplication();      // Camada de Aplicação
+builder.Services.AddInfrastructure(builder.Configuration);  // Camada de Infraestrutura
 
 // Define cultura padrão pt-BR
 var cultureInfo = new CultureInfo("pt-BR");

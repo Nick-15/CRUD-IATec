@@ -278,10 +278,16 @@ C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\staticwebassets.build.js
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\CRUD-IATec.csproj.Up2Date
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\CRUD-IATec.dll
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\refint\CRUD-IATec.dll
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\CRUD-IATec.pdb
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\CRUD-IATec.genruntimeconfig.cache
 C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\ref\CRUD-IATec.dll
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\obj\Debug\net8.0\CRUD-IATec.sourcelink.json
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\bin\Debug\net8.0\CRUD_IATec.Application.dll
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\bin\Debug\net8.0\CRUD_IATec.Domain.dll
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\bin\Debug\net8.0\CRUD_IATec.Infrastructure.dll
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\bin\Debug\net8.0\CRUD_IATec.Application.pdb
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\bin\Debug\net8.0\CRUD_IATec.Infrastructure.pdb
+C:\Users\Nicolas\CRUD-IATec\CRUD-IATec\bin\Debug\net8.0\CRUD_IATec.Domain.pdb

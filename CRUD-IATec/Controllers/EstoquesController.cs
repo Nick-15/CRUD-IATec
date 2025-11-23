@@ -1,27 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CRUD_IATec.Application.DTOs;
+using CRUD_IATec.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using CRUD_IATec.Models;
 
 namespace CRUD_IATec.Controllers
 {
     public class EstoquesController : Controller
     {
-        private readonly EstoqueDbContext _context;
+        private readonly IEstoqueService _estoqueService;
 
-        public EstoquesController(EstoqueDbContext context)
+        public EstoquesController(IEstoqueService estoqueService)
         {
-            _context = context;
+            _estoqueService = estoqueService;
         }
 
         // GET: Estoques
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Estoques.ToListAsync());
+            var estoques = await _estoqueService.ObterTodosAsync();
+            return View(estoques);
         }
 
         // GET: Estoques/Details/5
@@ -32,8 +28,8 @@ namespace CRUD_IATec.Controllers
                 return NotFound();
             }
 
-            var estoque = await _context.Estoques
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var estoque = await _estoqueService.ObterPorIdAsync(id.Value);
+
             if (estoque == null)
             {
                 return NotFound();
@@ -49,19 +45,25 @@ namespace CRUD_IATec.Controllers
         }
 
         // POST: Estoques/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NomeProduto,Quantidade,Preco")] Estoque estoque)
+        public async Task<IActionResult> Create(CriarEstoqueDTO dto)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _context.Add(estoque);
-                await _context.SaveChangesAsync();
+                return View(dto);
+            }
+
+            try
+            {
+                await _estoqueService.CriarAsync(dto);
                 return RedirectToAction(nameof(Index));
             }
-            return View(estoque);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"Erro ao criar estoque: {ex.Message}");
+                return View(dto);
+            }
         }
 
         // GET: Estoques/Edit/5
@@ -72,47 +74,50 @@ namespace CRUD_IATec.Controllers
                 return NotFound();
             }
 
-            var estoque = await _context.Estoques.FindAsync(id);
+            var estoque = await _estoqueService.ObterPorIdAsync(id.Value);
+
             if (estoque == null)
             {
                 return NotFound();
             }
-            return View(estoque);
+
+            var dto = new AtualizarEstoqueDTO
+            {
+                NomeProduto = estoque.NomeProduto,
+                Quantidade = estoque.Quantidade,
+                Preco = estoque.Preco
+            };
+
+            ViewData["Id"] = estoque.Id;
+            return View(dto);
         }
 
         // POST: Estoques/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NomeProduto,Quantidade,Preco")] Estoque estoque)
+        public async Task<IActionResult> Edit(int id, AtualizarEstoqueDTO dto)
         {
-            if (id != estoque.Id)
+            if (!ModelState.IsValid)
+            {
+                ViewData["Id"] = id;
+                return View(dto);
+            }
+
+            try
+            {
+                await _estoqueService.AtualizarAsync(id, dto);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (KeyNotFoundException)
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
+            catch (Exception ex)
             {
-                try
-                {
-                    _context.Update(estoque);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!EstoqueExists(estoque.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                ModelState.AddModelError("", $"Erro ao atualizar estoque: {ex.Message}");
+                ViewData["Id"] = id;
+                return View(dto);
             }
-            return View(estoque);
         }
 
         // GET: Estoques/Delete/5
@@ -123,8 +128,8 @@ namespace CRUD_IATec.Controllers
                 return NotFound();
             }
 
-            var estoque = await _context.Estoques
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var estoque = await _estoqueService.ObterPorIdAsync(id.Value);
+
             if (estoque == null)
             {
                 return NotFound();
@@ -138,19 +143,20 @@ namespace CRUD_IATec.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var estoque = await _context.Estoques.FindAsync(id);
-            if (estoque != null)
+            try
             {
-                _context.Estoques.Remove(estoque);
+                await _estoqueService.DeletarAsync(id);
+                return RedirectToAction(nameof(Index));
             }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool EstoqueExists(int id)
-        {
-            return _context.Estoques.Any(e => e.Id == id);
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"Erro ao deletar estoque: {ex.Message}");
+                return RedirectToAction(nameof(Delete), new { id });
+            }
         }
     }
 }
